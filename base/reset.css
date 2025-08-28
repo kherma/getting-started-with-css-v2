@@ -11,8 +11,19 @@ html {
 body {
   font-size: var(--base-font-size);
   font-family: "Inter", sans-serif;
+  background-color: var(--platinum);
+  color: var(--onyx);
 }
 
 img {
   max-width: 100%;
+  border-radius: var(--corners);
+}
+
+a {
+  color: var(--windsurfing);
+}
+
+a:hover {
+  color: var(--marina);
 }
