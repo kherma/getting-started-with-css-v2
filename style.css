@@ -21,7 +21,7 @@ ul svg {
 }
 
 .social {
-  fill: var(--windsurfing);
+  fill: var(--ld-blue);
 }
 
 .social:hover {
@@ -62,7 +62,7 @@ main {
 }
 
 .project {
-  background-color: var(--white);
+  background-color: var(--ld-projects);
   padding: 3rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -125,7 +125,7 @@ footer {
 }
 
 footer .social {
-  fill: var(--onyx);
+  fill: var(--ld-blue);
 }
 
 @media (min-width: 750px) {
@@ -167,6 +167,7 @@ footer .social {
 
   .footer-text {
     grid-template-columns: repeat(3, 1fr);
+    color: var(--ld-text);
   }
 }
 

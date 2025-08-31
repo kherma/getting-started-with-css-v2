@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  color-scheme: light dark;
 }
 
 *,
@@ -11,8 +12,8 @@ html {
 body {
   font-size: var(--base-font-size);
   font-family: "Inter", sans-serif;
-  background-color: var(--platinum);
-  color: var(--onyx);
+  background-color: var(--ld-background);
+  color: var(--ld-text);
 }
 
 img {
@@ -21,7 +22,7 @@ img {
 }
 
 a {
-  color: var(--windsurfing);
+  color: var(--ld-blue);
 }
 
 a:hover {

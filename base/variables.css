@@ -10,4 +10,10 @@
   --corners: 24px 0;
   --corners-sm: 10px 0;
   --base-font-size: 1rem;
+
+  /* Light Dark themes */
+  --ld-background: light-dark(var(--platinum), var(--charcoal));
+  --ld-text: light-dark(var(--onyx), var(--white));
+  --ld-projects: light-dark(var(--white), #2e313d);
+  --ld-blue: light-dark(var(--windsurfing), #6dadd0);
 }
