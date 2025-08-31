@@ -11,6 +11,21 @@
   </head>
   <body>
     <div class="wrapper">
+      <header>
+        <fieldset id="theme-switcher" class="radio-switch">
+          <legend>Select a color mode:</legend>
+          <input
+            type="radio"
+            name="color-scheme"
+            id="light"
+            value="light"
+            checked
+          />
+          <label for="light">Light</label>
+          <input type="radio" name="color-scheme" id="dark" value="dark" />
+          <label for="dark">Dark</label>
+        </fieldset>
+      </header>
       <article class="main-article">
         <div class="text">
           <h2>Frontend Developer</h2>
