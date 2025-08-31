@@ -46,6 +46,56 @@ ul svg {
   overflow: hidden;
 }
 
+/* Projects */
+
+main {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.project {
+  background-color: var(--white);
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  border-radius: var(--corners);
+}
+
+.project ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project ul li {
+  background-color: var(--marina);
+  color: var(--white);
+  border-radius: var(--corners-sm);
+  padding: 0.5rem;
+  font-size: calc(var(--base-font-size) * 0.85);
+}
+
+.project img {
+  grid-row: 1/2;
+}
+
+.img-border {
+  border: 1px solid var(--onyx);
+}
+
 /* Footer styles */
 
 footer {
@@ -117,5 +167,24 @@ footer .social {
 
   .footer-text {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 850px) {
+  main {
+    text-align: left;
+  }
+
+  .project img {
+    grid-row: auto;
+  }
+
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .project ul {
+    justify-content: flex-start;
   }
 }
