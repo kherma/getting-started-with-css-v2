@@ -11,7 +11,7 @@ h1 {
 h2 {
   font-size: var(--base-font-size);
   text-transform: uppercase;
-  color: var(--windsurfing);
+  color: var(--ld-blue);
   letter-spacing: 0.25em;
 }
 
